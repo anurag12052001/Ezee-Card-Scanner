@@ -75,39 +75,6 @@ class _LoginState extends State<Login> {
       ),
     );
 
-    // // facebook button
-
-    // final facebookbutton = Material(
-    //   elevation: 20,
-    //   borderRadius: BorderRadius.circular(20),
-    //   color: Colors.black,
-    //   child: MaterialButton(
-    //       onPressed: () {},
-    //       child: Text("Facebook",
-    //           style: TextStyle(
-    //               color: Colors.white,
-    //               fontSize: 20,
-    //               fontWeight: FontWeight.bold)),
-    //       minWidth: MediaQuery.of(context).size.width / 4),
-    // );
-
-    // gmail button
-
-    // final gmailbutton = Material(
-    //   // elevation: 20,
-    //   borderRadius: BorderRadius.circular(20),
-    //   color: Colors.transparent,
-    //   child: MaterialButton(
-    //     onPressed: () {},
-    //     child: Image.asset(
-    //       "assets/facebook.png",
-    //       width: 50,
-    //       height: 50,
-    //     ),
-    //     minWidth: MediaQuery.of(context).size.width / 3,
-    //   ),
-    // );
-
     return Scaffold(
       body: SafeArea(
         child: SingleChildScrollView(
